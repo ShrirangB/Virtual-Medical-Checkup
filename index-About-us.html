@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  body{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .logo{
+    color: #04a5f0;
+  }
+  /* nav links */
+  .navbar-toggler {
+    outline: none !important;
+  }
+  .toggler-icon {
+    font-size: 40px;
+    color: #04a5f0;
+  }
+  .nav-link {
+    color: #04a5f0;
+    transition: all 1s ease-in-out;
+    font-size: 24px;
+    
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .app{
+    color: #4FCE5D;
+  }
+   
+     /*--------------------------------------------------------------
+    # Hero Section
+    --------------------------------------------------------------*/
+    #hero {
+      width: 100%;
+      height: 60vh;
+      background:linear-gradient(rgba(6, 189, 189, 0.5), rgba(6, 188, 201, 0.5)), url("./images/About_dr_img.jpg") center center;
+      background-size: cover;
+      position: relative;
+      z-index: 1;
+      padding: 0;
+      /* margin-bottom: -120px; */
+      margin:0 auto -120px auto;
+    }
+    
+    #hero:before {
+      content: "";
+      background: rgba(0, 0, 0, 0.4);
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+    
+    #hero .container {
+      z-index: 2;
+    }
+    
+    #hero h1 {
+      margin: 0 0 10px 0;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 56px;
+      color: #fff;
+    }
+    
+   
+    
+    #hero .btn-start {
+      text-transform: uppercase;
+       font-weight: 500;
+       font-size: 14px;
+       letter-spacing: 1px;
+       display: inline-block;
+       padding: 10px 28px;
+       transition: 0.5s;
+       margin-top: 10px;
+       border: 2px solid #fff;
+       color: #fff;
+     }
+    #hero .btn-start:hover {
+       background: rgba(6, 189, 189, 0.5);
+       border: 2px solid rgba(6, 189, 189, 0.5);
+       text-decoration: none;
+     }
+     /*--------------------------------------------------------------
+  # Skills
+  --------------------------------------------------------------*/
+  .skills {
+    padding: 0 0 30px 0;
+    position: relative;
+    z-index: 3;
+  }
+   .skills .icon-boxes .icon-box {
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background:rgb(8, 169, 190);
+    padding: 50px 30px;
+    width: 100%;
+  }
+  
+  .skills .icon-boxes .icon-box i {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .skills .icon-boxes .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0px 30px 0;
+  }
+  
+  .skills .icon-boxes .icon-box p {
+    font-size: 15px;
+    color: #fff;
+  }
+
+.img-fluid{
+    width:430px;
+    height:500px;
+  }
+  /*End of Skill section*/
+  /*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+  .about h3 {
+    font-weight: bold;
+    font-size: 34px;
+    color: #000;
+  }
+  
+  .about h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .about i {
+    font-size: 48px;
+    margin-top: 15px;
+    color: #04a5f0;
+  }
+  
+  .about p {
+    font-size: 15px;
+    color: #000;
+  }
+  /*Service Section*/
+  .bg-linear{
+    background:linear-gradient(rgba(6, 189, 189, 0.5), rgba(6, 188, 201, 0.5));
+  }
+  .service {
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 1px 2px 0px rgba(1, 17, 53, 0.8);
+    transition: .3s all ease-in-out;
+    top: 0;
+    position: relative; }
+    .service:hover {
+    box-shadow: 0 8px 50px -5px rgba(1,17,53,0.8);
+      top: -2px; }
+    .service .service-number {
+        flex: 0 0 60px; }
+     .service .service-about *:last-child {
+      margin-bottom: 0; }
+    .service .service-about h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px; }
+    .service .fab{
+      color: #04a5f0;
+    }
+    .service .fab:hover{
+      color: #f004a9;
+    }
+    </style>
+  </head>
+  <body>
+   
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container">
+      <h1 class="text-uppercase" style="margin-left: 50px;color:#2eb9fa">About Us</h1>
+      
+      
+       <div class="d-flex align-items-center">
+       <!-- <a href="#" class="btn-start">Get Started</a> -->
+       <h4 style="color: aliceblue;">Connect Securely Anytime,Anywhere<br> With 24*7 Doctors Available Just For You.</h4>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+   <!-- ======= Skill ======= -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-5">
+            </div>
+          <div class="col-xl-8 col-lg-7 d-flex">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-center box">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="fab fa-fly"></i>
+                    <h4>Start A Session</h4>
+                    <p>Select the type of category you would like to consult with the doctor.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-center ">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="fas fa-leaf"></i>
+                    <h4>Tell Us What's troubling You</h4>
+                    <p>Type in your concern.Help Doctor Understand your Case Better.</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-center ">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="fas fa-virus"></i>
+                    <h4>Connect With Doctor.</h4>
+                    <p>Choose The Specialist You Want To Get Treatment From.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills Section -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about m-5">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="images/About1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <h3 class="font-weight-bold">About Us </h3>
+            <p>Access video consultation with top doctors. Connect with doctors online, available 24/7, from the comfort of your home.</p>
+            <div class="row">
+              <div class="col-md-6">
+                <i class="fas fa-hospital-user"></i>
+                <br>
+
+                <br> 
+                <h4>Take Advice From Best Doctors.</h4>
+                <p>Don't Self Meditate. Talk to an expert. Consult a doctor in less than 2 minutes. </p>
+
+              </div>
+              <div class="col-md-6">
+                <i class="fas fa-pills"></i>
+                <br>
+                <br>
+                <h4>Place Order Via Prescription.</h4>
+                <p>Tired of waiting in a queue? Too weak to go down and buy medicines? Order from here!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+<!--Service Section-->
+<section>
+  <div class=" bg-linear" id="services-section">
+    <div class="container">
+      <div class="row ">
+        <div class="col-12 mb-5 position-relative">
+          <h2 class="section-title text-center mt-5">Services</h2>
+        </div>
+  
+        <div class="col-md-6 mb-4">
+          <div class="service d-flex h-100">
+            <div class="service-number mr-4">
+             <i class="fab fa-affiliatetheme fa-2x"></i></div>
+            <div class="service-about">
+              <h3>Consult Top Doctors 24x7</h3>
+              <p>
+                Connect instantly with a 24x7 specialist or choose to video visit a particular doctor.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 mb-4">
+          <div class="service d-flex h-100">
+            <div class="service-number mr-4">
+              <i class="fab fa-adobe fa-2x"></i></div>
+            <div class="service-about">
+              <h3>Consult With Doctors</h3>
+              <p>Connect instantly with a 24x7 specialist or choose to video visit a particular doctor.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 mb-4">
+          <div class="service d-flex h-100">
+            <div class="service-number mr-4">
+              <i class="fab fa-airbnb fa-2x"></i></div>
+            <div class="service-about">
+              <h3>Convenient and Easy</h3>
+              <p>
+                Start an instant consultation within 2 minutes or do video consultation at the scheduled time.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 mb-4">
+          <div class="service d-flex h-100">
+            <div class="service-number mr-4">
+              <i class="fab fa-amazon fa-2x"></i></div>
+            <div class="service-about">
+              <h3>Similar Clinic Experience</h3>
+              <p>
+                Experience clinic-like consultation through a video call with the doctor. Video consultation is available.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!--End of Service Section-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
